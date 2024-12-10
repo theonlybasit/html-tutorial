@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        } 
+        a{
+            text-decoration: none;
+            color:navy;
+            font-size: 20px;
+        }
+        a:hover {
+            color: brown;
+            font-size: 40px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: green;
+        }
+
+        li:nth-child(3){
+            background-color: red;
+        }
+
+        li:last-child{
+            background-color: blue;
+        }
+        h1::before{
+            content: "* ";
+            font-size: 50px;
+        }
+        h1::after{
+            content: " *";
+            font-size: 50px;
+        }
+
+        footer > p{
+            text-align: center;
+            padding: 2rem 0 2rem 0;
+            text-decoration: underline dashed;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            word-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:red; font-size: 3rem;">Wale</h1>
+        <nav style="background-color:aqua;">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Corporate</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section>
+            <main>
+                <img src="images/vlcsnap-error080.png" alt="Code-text">
+                <div>
+                    <h2>Welcome to my website</h2>
+                <article>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Fugiat ipsam sequi facilis, molestiae sed consequatur voluptatum est quisquam reiciendis deserunt inventore debitis odio dolores!
+                        Amet quo vel dolorum obcaecati non!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempore atque odio nam iste omnis saepe, doloremque ratione, fugit exercitationem quo porro culpa.
+                        Quibusdam itaque deserunt repellendus rem suscipit dignissimos repudiandae.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Nesciunt assumenda nam optio consectetur totam, modi commodi sed temporibus laboriosam,
+                        delectus maiores voluptate sapiente amet et dolorum tempora distinctio quasi animi!
+                    </p>      
+                </article>    
+                </div>
+            </main>
+        </section>
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.180708702209!2d4.542902974055045!3d7.7706535074174115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037895c78efeac5%3A0xac5ed308fc48ad34!2sOIC%20Hub!5e0!3m2!1sen!2sng!4v1733219738488!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+        <p>
+            &copy;2024. All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
